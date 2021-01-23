@@ -58,68 +58,68 @@ BLYNK_WRITE(V4)
 
 BLYNK_WRITE(V6)
 {
-  pinValue6 = param.asInt(); // assigning incoming value from pin V1 to a variable
+  pinValue6 = param.asInt(); // assigning incoming value from pin V6 to a variable
   String toPrint = String("V6:")+String(pinValue6);
   Serial.println(toPrint);
 }
 BLYNK_WRITE(V7)
 {
-  pinValue7 = param.asInt(); // assigning incoming value from pin V1 to a variable
+  pinValue7 = param.asInt(); // assigning incoming value from pin V7 to a variable
   String toPrint = String("V7:")+String(pinValue7);
   Serial.println(toPrint);
   
 }
 BLYNK_WRITE(V8)
 {
-  pinValue8 = param.asInt(); // assigning incoming value from pin V1 to a variable
+  pinValue8 = param.asInt(); // assigning incoming value from pin V8 to a variable
   String toPrint = String("V8:")+String(pinValue8);
   Serial.println(toPrint);
 }
 BLYNK_WRITE(V9)
 {
-  pinValue9 = param.asInt(); // assigning incoming value from pin V1 to a variable
+  pinValue9 = param.asInt(); // assigning incoming value from pin V9 to a variable
   String toPrint = String("V9:")+String(pinValue9);
   Serial.println(toPrint);
 }
 BLYNK_WRITE(V10)
 {
-  pinValue10 = param.asInt(); // assigning incoming value from pin V1 to a variable
+  pinValue10 = param.asInt(); // assigning incoming value from pin V10 to a variable
   String toPrint = String("VA0:")+String(pinValue10);
    Serial.println(toPrint);
 }
 BLYNK_WRITE(V11)
 {
-  pinValue11 = param.asInt(); // assigning incoming value from pin V1 to a variable
+  pinValue11 = param.asInt(); // assigning incoming value from pin V11 to a variable
   String toPrint = String("VA1:")+String(pinValue11);
    Serial.println(toPrint);
 }
 BLYNK_WRITE(V12)
 {
-  pinValue12 = param.asInt(); // assigning incoming value from pin V1 to a variable
+  pinValue12 = param.asInt(); // assigning incoming value from pin V12 to a variable
   String toPrint = String("VA2:")+String(pinValue12);
   Serial.println(toPrint);
 }
 BLYNK_WRITE(V13)
 {
-  pinValue13 = param.asInt(); // assigning incoming value from pin V1 to a variable
+  pinValue13 = param.asInt(); // assigning incoming value from pin V13 to a variable
   String toPrint = String("VA3:")+String(pinValue13);
   Serial.println(toPrint);
 }
 BLYNK_WRITE(V14)
 {
-  pinValue14 = param.asInt(); // assigning incoming value from pin V1 to a variable
+  pinValue14 = param.asInt(); // assigning incoming value from pin V14 to a variable
   String toPrint = String("VA4:")+String(pinValue14);
   Serial.println(toPrint);
 }
 BLYNK_WRITE(V15)
 {
-  pinValue15 = param.asInt(); // assigning incoming value from pin V1 to a variable
+  pinValue15 = param.asInt(); // assigning incoming value from pin V15 to a variable
   String toPrint = String("VA5:")+String(pinValue15);
   Serial.println(toPrint);
 }
 BLYNK_WRITE(V16)
 {
-  pinValue16 = param.asInt(); // assigning incoming value from pin V1 to a variable
+  pinValue16 = param.asInt(); // assigning incoming value from pin V16 to a variable
   String toPrint = String("VA6:")+String(pinValue16);
   Serial.println(toPrint);
 }
