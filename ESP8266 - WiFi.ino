@@ -5,12 +5,12 @@
 #include <BlynkSimpleEsp8266.h>
 
 // You should get Auth Token in the Blynk App.
-char auth[] = "8Ub-jQoy2SBPSMAR_A_oFgkMMbIGYbL1";
+char auth[] = "AUTH CODE, OBTAINED FROM WITHIN BLYNK APP";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "TALKTALK52CF3D";
-char pass[] = "NEUR6TRA";
+char ssid[] = "YOUR NETWORK NAME HERE";
+char pass[] = "WIFI NETWORK PASSWORD HERE";
 int pinValue1;
 int pinValue2;
 int pinValue3;
